@@ -25,3 +25,11 @@ try:
 except Exception as e:  # PIL opcional
     print("qr.png omitido:", e)
 print("QR generado para", URL)
+
+# Ícono para la pantalla de inicio del iPhone (180x180, módulos enteros, margen blanco).
+from PIL import Image
+q = make(); q.border = 0; q.box_size = 5
+qi = q.make_image(fill_color="black", back_color="white").convert("RGB")
+icon = Image.new("RGB", (180, 180), "white")
+icon.paste(qi, ((180 - qi.size[0]) // 2, (180 - qi.size[1]) // 2))
+icon.save(root / "apple-touch-icon.png")
