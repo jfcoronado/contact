@@ -2,7 +2,7 @@
 
 Tarjeta de contacto digital para compartir por QR: https://jfcoronado.github.io/contact/
 
-- `index.html` – página de contacto (los enlaces de correo, WhatsApp y LinkedIn están comentados; solo hay que activarlos).
+- `index.html` – página de contacto.
 - `contact.vcf` – vCard del botón «Guardar contacto».
 - `qr.html` – QR a pantalla completa para mostrarlo en el teléfono.
 - `qr.svg` / `qr.png` – QR para imprimir (gafete, diapositiva, tarjeta).
