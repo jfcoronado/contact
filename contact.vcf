@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Coronado;Jose Felix;;;
+FN:Jose Felix Coronado
+ORG:Dell Technologies
+TITLE:Principal Cloud Engineer
+ADR;TYPE=WORK:;;;;;;Panamá
+URL:https://jfcoronado.github.io/contact/
+X-SOCIALPROFILE;TYPE=github:https://github.com/jfcoronado
+END:VCARD
